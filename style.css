@@ -1,0 +1,20 @@
+html body {
+    background-color: cadetblue;
+}
+body {
+    font-family: “monospace”, sans-serif;
+}
+
+.font-primary {
+    color: #00ABAE;
+ 
+}
+
+.nav-item {
+color: aqua;
+}
+
+.title-icon{
+    font-size: 20px;
+    font-weight: bold;
+}
