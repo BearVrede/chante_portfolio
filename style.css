@@ -1,12 +1,12 @@
 html body {
-    background-color: cadetblue;
+    background-color: rgba(180, 135, 77, 0.925);
 }
 body {
     font-family: “monospace”, sans-serif;
 }
 
 .font-primary {
-    color: #00ABAE;
+    color: #ee9219;
  
 }
 
@@ -17,4 +17,50 @@ color: aqua;
 .title-icon{
     font-size: 20px;
     font-weight: bold;
+}
+
+#about {
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+#about img{
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+#about .name{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#about .vocation{
+    font-size: 17px;
+    color: #A0522D;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#about .skills{
+    font-size: 14px;
+    color: #2F4F4F;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#about .email{
+    margin-top: 14px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#about .icons{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#about .icons a{
+    color: #2F4F4F;
 }
