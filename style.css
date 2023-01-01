@@ -1,5 +1,4 @@
-html body {
-    background-color: rgba(180, 135, 77, 0.925);
+html body { background-color: rgba(151, 124, 83, 0.966);
 }
 body {
     font-family: “monospace”, sans-serif;
@@ -19,10 +18,25 @@ color: aqua;
     font-weight: bold;
 }
 
+p{
+    font-size 14px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+a.font-black{
+    color: #000 !important;
+}
+
 #about {
     margin: 60px auto;
     max-width: 400px;
     text-align: center;
+    
 }
 
 #about img{
@@ -63,4 +77,34 @@ color: aqua;
 
 #about .icons a{
     color: #2F4F4F;
+}
+
+#project{
+    margin: 60px auto;
+    width: 80%
+}
+
+#project h2{
+    text-align: center;
+    margin: 30px;
+}
+
+#project .card img{
+    width: 100%
+}
+
+.card{
+    display: flex;
+}
+
+.card{
+    text-align: center;
+}
+
+.details{
+    padding-left: 5%;
+}
+
+#project .card-title {
+    font-weight: bold;
 }
